@@ -1,0 +1,45 @@
+---
+title: "Course_Understanding"
+author: "Alyssa Hubiak"
+date: "2022-12-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Course Understanding by Week
+
+### Week 1
+* The bias variance trade-off and how to focus on the finding the balance which results in the lowest value for both.
+* How to use scoring to evaluate regression and classification models. This can include RMSE, R squared, Absolute error, accuracy, and precision and recall.
+
+### Week 2
+* The different goals of exploratory data analysis and explanatory analysis. They may have similar points, but exploratory analysis seeks to find out information, while explanatory is to explain an already discovered point. 
+* How to handle missing values and how to normalize and/or rescale values as needed.
+
+### Week 3
+* The assumptions that linear models need to make in order to work effectively, and how that helps us decide when to use them.
+* How to create and evaluate a linear model. 
+
+### Week 4
+* When to use a classification model vs a regression model. 
+* How to measure the performance of a classification model through a confusion matrix, precision, recall, f1 score, and ROC curves.
+
+### Week 5
+* What a GLM model is (application of non-normal distribution) and how and when they should be used.
+* The difference between poisson and gamma distributions and how to apply them to a GLM model.
+
+### Week 6
+* How to use a Decision Tree model, and why it is often chosen for its explainability to those who don't have much statistical knowledge.
+* How to create and use a Random Forest model and how it loses explainability but tends to be much more accurate than a decision tree model.
+
+### Week 7
+* The difference between unsupervised and supervised models and why a person would choose one vs the other.
+* How to complete a k-means cluster analysis in R.
+
+### Week 8
+* The importance of creating well-documented code for easy explainability and understanding.
+* How to use Git and Github to create Version Control branches, which can allow multiple people to work on a project without interfering with each others work. 
+
